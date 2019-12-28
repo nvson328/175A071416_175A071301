@@ -1,0 +1,12 @@
+$(document).ready(function(){
+	$('#btnLogin').click(function(){
+		$.ajax({
+			type:'post',
+			url:'ajaxProcessLogin.php',
+			data:{user:'nvson',pass:'abc'},
+			success:function(data){
+				$(#)
+			}
+		})
+	})
+}) 
